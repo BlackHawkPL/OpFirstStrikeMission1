@@ -5,10 +5,10 @@ class EditorData
 	angleGridStep=0.2617994;
 	scaleGridStep=1;
 	autoGroupingDist=10;
-	toggles=513;
+	toggles=514;
 	class ItemIDProvider
 	{
-		nextID=1136;
+		nextID=1137;
 	};
 	class MarkerIDProvider
 	{
@@ -16,7 +16,7 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=232;
+		nextID=295;
 	};
 	class Camera
 	{
@@ -55,13 +55,14 @@ addons[]=
 	"ace_dragging",
 	"A3_Characters_F",
 	"A3_Ui_F",
-	"RU_MKRDK"
+	"RU_MKRDK",
+	"A3_Modules_F"
 };
 class AddonsMetaData
 {
 	class List
 	{
-		items=25;
+		items=26;
 		class Item0
 		{
 			className="A3_Characters_F";
@@ -229,6 +230,13 @@ class AddonsMetaData
 			className="RU_MKRDK";
 			name="RU_MKRDK";
 		};
+		class Item25
+		{
+			className="A3_Modules_F";
+			name="Arma 3 Alpha - Scripted Modules";
+			author="Bohemia Interactive";
+			url="https://www.arma3.com";
+		};
 	};
 };
 randomSeed=4628903;
@@ -262,7 +270,7 @@ class Mission
 	};
 	class Entities
 	{
-		items=182;
+		items=183;
 		class Item0
 		{
 			dataType="Group";
@@ -31490,7 +31498,7 @@ class Mission
 			type="rectangle";
 			a=11.591;
 			b=429.55399;
-			angle=28.476982;
+			angle=28.476969;
 			id=1045;
 			atlOffset=20.039474;
 		};
@@ -33223,6 +33231,17 @@ class Mission
 				};
 				nAttributes=2;
 			};
+		};
+		class Item182
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={12109.866,159,12654.82};
+			};
+			name="FW_west_respawn";
+			id=1136;
+			type="Logic";
 		};
 	};
 };

@@ -10,6 +10,15 @@ if (isServer) then { //This scope is only for the server
 	
 	// [resistance, "Local Militia", "player"] call FNC_AddTeam; //Adds a player team called Local Militia on side resistance (aka independent)
 
+	//Ticket pools for different sides
+	FW_RespawnTicketsWest = 8;
+	publicVariable "FW_RespawnTicketsWest";
+	FW_RespawnTicketsEast = 0;
+	publicVariable "FW_RespawnTicketsEast";
+	FW_RespawnTicketsInd = 0;
+	publicVariable "FW_RespawnTicketsInd";
+	FW_RespawnTicketsCiv = 0;
+	publicVariable "FW_RespawnTicketsCiv";
 };
 
 if (!isDedicated) then { //This scope is only for the player
@@ -22,8 +31,9 @@ if (!isDedicated) then { //This scope is only for the player
 
 		case west: { //If player is west he receives this respawn ticket count
 			
-			FW_RespawnTickets = 0;//If respawn is enabled you must create empty game logics, for respawn points, following the name format fw_side_respawn. Example: fw_west_respawn
-			
+			FW_RespawnTickets = 1; //how many times one player can die and respawn
+			//If respawn is enabled you must create empty game logics, for respawn points, following the name format fw_side_respawn. Example: fw_west_respawn
+
 		}; //End of west case
 	}; //End of switch
 };

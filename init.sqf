@@ -12,7 +12,9 @@ if (isServer) then {
 	[] spawn { //Spawns code running in parallel
 
 		while {!FW_MissionEnded} do { //Loops while the mission is not ended
-			
+			FW_Disable_Endconditions = true;
+			if (!isNil "FW_Disable_Endconditions") exitWith {};
+
 			#include "customization\endConditions.sqf" //DO NOT REMOVE
 			
 			//The time limit in minutes variable called FW_TimeLimit is set in customization/settings.sqf, to disable the time limit set it to 0
