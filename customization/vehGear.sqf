@@ -42,7 +42,7 @@ switch (_type) do {
 		_vehicle addMagazineCargoGlobal ["UK3CB_BAF_1Rnd_HE_Grenade_Shell", 6];
 		_vehicle addMagazineCargoGlobal ["UK3CB_BAF_1Rnd_HEDP_Grenade_Shell", 3];
 		_vehicle addMagazineCargoGlobal ["UK3CB_BAF_1Rnd_Smoke_Grenade_shell", 2];
-		
+		_vehicle addMagazineCargoGlobal ["UK3CB_BAF_1Rnd_Milan", 3];
 		_vehicle addWeaponCargoGlobal ["UK3CB_BAF_AT4_CS_AT_Launcher", 2];	
 	};
 
@@ -63,7 +63,7 @@ switch (_type) do {
 		_vehicle addMagazineCargoGlobal ["UK3CB_BAF_1Rnd_HE_Grenade_Shell", 6];
 		_vehicle addMagazineCargoGlobal ["UK3CB_BAF_1Rnd_HEDP_Grenade_Shell", 3];
 		_vehicle addMagazineCargoGlobal ["UK3CB_BAF_1Rnd_Smoke_Grenade_shell", 2];
-		
+		_vehicle addMagazineCargoGlobal ["UK3CB_BAF_1Rnd_Milan", 3];
 		_vehicle addWeaponCargoGlobal ["UK3CB_BAF_AT4_CS_AT_Launcher", 2];	
 	};
 
@@ -113,8 +113,8 @@ switch (_type) do {
 		
 		_vehicle addWeaponCargoGlobal ["rhs_weap_maaws", 1];
 		_vehicle addItemCargoGlobal ["rhs_optic_maaws",1];	
-		_vehicle addMagazineCargoGlobal ["rhs_mag_maaws_HEDP", 3];
-		_vehicle addMagazineCargoGlobal ["rhs_mag_maaws_HEAT", 3];
+		_vehicle addMagazineCargoGlobal ["rhs_mag_maaws_HEDP", 2];
+		_vehicle addMagazineCargoGlobal ["rhs_mag_maaws_HEAT", 2];
 	};
 
 	case "BMD": {
