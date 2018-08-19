@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=330;
+		nextID=351;
 	};
 	class Camera
 	{
-		pos[]={7438.0879,402.14658,9715.2061};
-		dir[]={-0.88982272,-0.16873278,-0.42424774};
-		up[]={-0.15243533,0.98559529,-0.072677359};
-		aside[]={-0.43042165,3.4182449e-007,0.90275872};
+		pos[]={12097.418,183.72565,12683.941};
+		dir[]={-0.64046603,-0.37385008,-0.67102212};
+		up[]={-0.25818622,0.92739815,-0.27050549};
+		aside[]={-0.7234689,-6.4822962e-007,0.69051915};
 	};
 };
 binarizationWanted=0;
@@ -14724,7 +14724,7 @@ class Mission
 			};
 			id=615;
 			type="rhs_bmd1p";
-			atlOffset=-0.024993896;
+			atlOffset=-0.056884766;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15050,7 +15050,7 @@ class Mission
 			};
 			id=616;
 			type="rhs_bmd1p";
-			atlOffset=-0.023010254;
+			atlOffset=-0.055358887;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15376,7 +15376,7 @@ class Mission
 			};
 			id=617;
 			type="rhs_bmd1p";
-			atlOffset=-0.0020141602;
+			atlOffset=-0.034179688;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -15702,7 +15702,7 @@ class Mission
 			};
 			id=618;
 			type="rhs_bmd1p";
-			atlOffset=-0.062957764;
+			atlOffset=-0.095275879;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16028,7 +16028,7 @@ class Mission
 			};
 			id=619;
 			type="rhs_bmd1p";
-			atlOffset=-0.064971924;
+			atlOffset=-0.097198486;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16354,7 +16354,7 @@ class Mission
 			};
 			id=620;
 			type="rhs_bmd1p";
-			atlOffset=-0.028045654;
+			atlOffset=-0.059967041;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -16680,7 +16680,7 @@ class Mission
 			};
 			id=621;
 			type="rhs_bmd1p";
-			atlOffset=-0.0050354004;
+			atlOffset=-0.037231445;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17006,7 +17006,7 @@ class Mission
 			};
 			id=622;
 			type="rhs_bmd1p";
-			atlOffset=-0.0020141602;
+			atlOffset=-0.034179688;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -17332,7 +17332,7 @@ class Mission
 			};
 			id=623;
 			type="rhs_bmd1p";
-			atlOffset=-0.023010254;
+			atlOffset=-0.055023193;
 			class CustomAttributes
 			{
 				class Attribute0
@@ -31953,13 +31953,13 @@ class Mission
 			class PositionInfo
 			{
 				position[]={12072.102,160.80261,12667.121};
-				angles[]={0,3.4191139,0};
+				angles[]={0,3.4191175,0};
 			};
 			side="Empty";
 			flags=4;
 			class Attributes
 			{
-				init="call{[this, ""LAND_ROVER_MORTAR""] call FNC_VehicleGearScript; [this, ""Land Rover Snatch FFR"", ""British Forces""] call FNC_TrackAsset;}";
+				init="call{[this, ""LAND_ROVER""] call FNC_VehicleGearScript; [this, ""Land Rover Snatch FFR"", ""British Forces""] call FNC_TrackAsset;}";
 			};
 			id=1129;
 			type="UK3CB_BAF_LandRover_Snatch_FFR_Green_A_DPMW";
@@ -31980,7 +31980,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],true]";
+							value="[[[[],[]],[[],[]],[[],[]],[[],[]]],false]";
 						};
 					};
 				};
