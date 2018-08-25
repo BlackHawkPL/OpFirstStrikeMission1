@@ -364,7 +364,6 @@ switch (_type) do {
 		["ACE_packingBandage", 15,"backpack"] call FNC_AddItem;
 		["ACE_salineIV_500", 5,"backpack"] call FNC_AddItem;
 		["ACE_tourniquet", 5,"backpack"] call FNC_AddItem;
-		["ACE_surgicalKit", 5,"backpack"] call FNC_AddItem;
 		["UK3CB_BAF_9_17Rnd", 2,"backpack"] call FNC_AddItem;
 		["UK3CB_BAF_556_30Rnd", 5,"backpack"] call FNC_AddItem;
 
@@ -822,7 +821,6 @@ switch (_type) do {
 		["rhs_6sh92"] call FNC_AddItem;
 		["rhs_sidor"] call FNC_AddItem;
 		["rhs_tsh4"] call FNC_AddItem;
-		
 		["ACRE_PRC343", 1, "uniform"] call FNC_AddItem;
 		["ACE_quikclot", 3, "uniform"] call FNC_AddItem;
 		["ACE_fieldDressing", 3, "uniform"] call FNC_AddItem;
@@ -830,11 +828,9 @@ switch (_type) do {
 		["ACE_EarPlugs", 1, "uniform"] call FNC_AddItem;
 		["ACE_morphine", 1, "uniform"] call FNC_AddItem;
 		["ACE_elasticBandage", 3, "uniform"] call FNC_AddItem;		
-
 		["rhs_30Rnd_545x39_AK",5,"vest"] call FNC_AddItem;
         ["rhs_mag_rdg2_white", 2, "vest"] call FNC_AddItem;
 		["rhs_mag_rgd5", 2, "vest"] call FNC_AddItem;
-
 		["ACE_fieldDressing",10,"backpack"] call FNC_AddItem;
 		["ACE_elasticBandage",10,"backpack"] call FNC_AddItem;
 		["ACE_quikclot",10,"backpack"] call FNC_AddItem;
@@ -844,7 +840,6 @@ switch (_type) do {
 		["ACE_salineIV_250",5,"backpack"] call FNC_AddItem;
 		["ACE_tourniquet",5,"backpack"] call FNC_AddItem;
 		["rhs_30Rnd_545x39_AK",5,"backpack"] call FNC_AddItem;
-
 		["rhs_weap_ak74m"] call FNC_AddItem;
 			_unit addPrimaryWeaponItem "rhs_acc_dtk";
 			_unit addPrimaryWeaponItem "rhs_acc_perst1ik";

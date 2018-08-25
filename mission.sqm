@@ -8,7 +8,7 @@ class EditorData
 	toggles=1538;
 	class ItemIDProvider
 	{
-		nextID=1140;
+		nextID=1141;
 	};
 	class MarkerIDProvider
 	{
@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=372;
+		nextID=386;
 	};
 	class Camera
 	{
-		pos[]={8523.3096,339.29196,10564.918};
-		dir[]={0,-0.70710683,0.70710683};
-		up[]={0,0.70710677,0.70710677};
-		aside[]={0.99999994,0,-0};
+		pos[]={7158.5669,497.83243,11499.96};
+		dir[]={-0.69404197,-0.26300746,-0.67019153};
+		up[]={-0.18920748,0.96478719,-0.18270445};
+		aside[]={-0.69464737,-2.0390144e-007,0.71937084};
 	};
 };
 binarizationWanted=0;
@@ -592,13 +592,13 @@ class Mission
 		month=11;
 		day=9;
 		hour=6;
-		minute=-24;
+		minute=-30;
 		startFogDecay=0.014;
 		forecastFogDecay=0.014;
 	};
 	class Entities
 	{
-		items=178;
+		items=179;
 		class Item0
 		{
 			dataType="Group";
@@ -11616,7 +11616,7 @@ class Mission
 			class PositionInfo
 			{
 				position[]={8298.1787,321.38184,10577.01};
-				angles[]={0.057269081,1.8215302,0.0026520467};
+				angles[]={0.05726425,1.8215302,0.0026529003};
 			};
 			side="Empty";
 			flags=4;
@@ -11681,7 +11681,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[],[]],[[""ACE_adenosine"",""ACE_fieldDressing"",""ACE_elasticBandage"",""ACE_quikclot"",""ACE_bloodIV_250"",""ACE_bloodIV_500"",""ACE_epinephrine"",""ACE_morphine"",""ACE_packingBandage"",""ACE_personalAidKit"",""ACE_plasmaIV_250"",""ACE_plasmaIV_500"",""ACE_salineIV_250"",""ACE_salineIV_500"",""ACE_surgicalKit""],[20,40,40,40,20,20,20,20,40,25,20,20,20,20,26]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[""ACE_adenosine"",""ACE_fieldDressing"",""ACE_elasticBandage"",""ACE_quikclot"",""ACE_bloodIV_250"",""ACE_bloodIV_500"",""ACE_epinephrine"",""ACE_morphine"",""ACE_packingBandage"",""ACE_plasmaIV_250"",""ACE_plasmaIV_500"",""ACE_salineIV_250"",""ACE_salineIV_500"",""ACE_surgicalKit"",""ACE_tourniquet""],[20,40,40,40,20,20,20,20,40,20,20,20,20,6,20]],[[],[]]],false]";
 						};
 					};
 				};
@@ -26207,8 +26207,8 @@ class Mission
 			dataType="Object";
 			class PositionInfo
 			{
-				position[]={2099.0464,279.98187,7408.02};
-				angles[]={6.1484876,3.1966927,0.13639171};
+				position[]={2099.0459,279.98181,7408.02};
+				angles[]={6.1484809,3.1966927,0.13639748};
 			};
 			side="Empty";
 			flags=4;
@@ -26274,7 +26274,7 @@ class Mission
 									"STRING"
 								};
 							};
-							value="[[[[],[]],[[],[]],[[""ACE_adenosine"",""ACE_fieldDressing"",""ACE_elasticBandage"",""ACE_quikclot"",""ACE_bloodIV_250"",""ACE_bloodIV_500"",""ACE_epinephrine"",""ACE_morphine"",""ACE_packingBandage"",""ACE_personalAidKit"",""ACE_plasmaIV_250"",""ACE_plasmaIV_500"",""ACE_salineIV_250"",""ACE_salineIV_500"",""ACE_surgicalKit""],[20,40,40,40,20,20,20,20,40,25,20,20,20,20,26]],[[],[]]],false]";
+							value="[[[[],[]],[[],[]],[[""ACE_adenosine"",""ACE_fieldDressing"",""ACE_elasticBandage"",""ACE_quikclot"",""ACE_bloodIV_250"",""ACE_bloodIV_500"",""ACE_epinephrine"",""ACE_morphine"",""ACE_packingBandage"",""ACE_plasmaIV_250"",""ACE_plasmaIV_500"",""ACE_salineIV_250"",""ACE_salineIV_500"",""ACE_surgicalKit""],[20,40,40,40,20,20,20,20,40,20,20,20,20,6]],[[],[]]],false]";
 						};
 					};
 				};
@@ -32818,6 +32818,199 @@ class Mission
 			type="hd_dot";
 			id=1139;
 			atlOffset=-5.0532837;
+		};
+		class Item178
+		{
+			dataType="Logic";
+			class PositionInfo
+			{
+				position[]={6913.6323,394.61435,11430.368};
+			};
+			areaSize[]={1,-1,1};
+			id=1140;
+			type="ModuleEditTerrainObject_F";
+			class CustomAttributes
+			{
+				class Attribute0
+				{
+					property="#name";
+					expression="_this setVariable [""#name"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute1
+				{
+					property="#filter";
+					expression="_this setVariable [""#filter"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=7;
+						};
+					};
+				};
+				class Attribute2
+				{
+					property="#initServer";
+					expression="_this setVariable [""#initServer"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				class Attribute3
+				{
+					property="#state";
+					expression="_this setVariable [""#state"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"SCALAR"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute4
+				{
+					property="#allowDamage";
+					expression="_this setVariable [""#allowDamage"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"BOOL"
+								};
+							};
+							value=0;
+						};
+					};
+				};
+				class Attribute5
+				{
+					property="#doorStates";
+					expression="_this setVariable [""#doorStates"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"ARRAY"
+								};
+							};
+							class value
+							{
+								items=3;
+								class Item0
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item1
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+								class Item2
+								{
+									class data
+									{
+										class type
+										{
+											type[]=
+											{
+												"SCALAR"
+											};
+										};
+										value=0;
+									};
+								};
+							};
+						};
+					};
+				};
+				class Attribute6
+				{
+					property="#init";
+					expression="_this setVariable [""#init"",_value]";
+					class Value
+					{
+						class data
+						{
+							class type
+							{
+								type[]=
+								{
+									"STRING"
+								};
+							};
+							value="";
+						};
+					};
+				};
+				nAttributes=7;
+			};
 		};
 	};
 };
