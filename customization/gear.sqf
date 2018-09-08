@@ -695,7 +695,7 @@ switch (_type) do {
 	
 		["rhs_uniform_vdv_flora"] call FNC_AddItem;
 		["rhs_6sh92"] call FNC_AddItem;
-		["rhs_sidor"] call FNC_AddItem;
+		["rhs_rpg_empty"] call FNC_AddItem;
 		["rhs_6b26"] call FNC_AddItem;
 		
 		["ACRE_PRC343", 1, "uniform"] call FNC_AddItem;
@@ -729,7 +729,7 @@ switch (_type) do {
 	
 		["rhs_uniform_vdv_flora"] call FNC_AddItem;
 		["rhs_6sh92"] call FNC_AddItem;
-		["rhs_sidor"] call FNC_AddItem;
+		["rhs_rpg_empty"] call FNC_AddItem;
 		["rhs_6b26"] call FNC_AddItem;
 		
 		["ACRE_PRC343", 1, "uniform"] call FNC_AddItem;

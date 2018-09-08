@@ -17,8 +17,8 @@
 //Additional modules that can be enabled by removing the //
 //!!Some of them require changing settings in their settings.sqf file!!
 
-#include "ace_medical\root.sqf"
-#include "ao_limit_soft\root.sqf"
+//#include "ace_medical\root.sqf"
+//#include "ao_limit_soft\root.sqf"
 #include "auto_track_assets\root.sqf"
 #include "marker_control\root.sqf"
 //#include "plank\root.sqf"
