@@ -12,7 +12,7 @@ NEWTAB("1. Situation:")
 <br/>
  A Russian Airborne Regiment continues to attack from west to east. One of their companies made contact with a friendly platoon approx. 8 km to the west of our position They are expected to continue the attack towards our engagement area.
 <br/>
-1.b.1. Composition (see Annex 2) : Enemy forces in our sector are comprised of a Company of tracked airborne VDV Infantry. Vehicle support consists of BMD-1P. Dismounts are expected to have standard Soviet small arms such as: PKM, AK-74, RPG-7/RPG-26, as well as NVG capabilities.
+1.b.1. Composition: Enemy forces in our sector are comprised of a Company of tracked airborne VDV Infantry. Vehicle support consists of BMD-1P. Dismounts are expected to have standard Soviet small arms such as: PKM, AK-74, RPG-7/RPG-26, as well as NVG capabilities.
 <br/>
 1.b.2. Disposition: Enemy forces are currently massing somewhere to the West of our location. 
 <br/>
@@ -22,7 +22,7 @@ NEWTAB("1. Situation:")
 <br/>
 1.c.1. Friendly Overview: A/1-63 continues to guard friendly air-defense artillery (ADA) assets in sector. A/1-63 is also defending in-depth in order to deny key terrain to the enemy. An engineer section continues to improve the airstrip during daylight hours. 3 PLT has the capability to dispatch a motorized section to support any friendly units that sustains causalities.
 <br/>
-1.c.2.) Adjacent Units: 3 PLT is deployed as rear-guard with a section tasked to provide QRF capabilities. 2 & 4 PLT are occupying a defensive posture to our immediate East/Southeast. A platoon of host-nation forces are currently deployed forward manning  Traffic Control Points (TCP) and Observation Points (OP).
+1.c.2.) Adjacent Units: 3 PLT is deployed as rear-guard with a section tasked to provide QRF capabilities. 2 and 4 PLT are occupying a defensive posture to our immediate East/Southeast. A platoon of host-nation forces are currently deployed forward manning  Traffic Control Points (TCP) and Observation Points (OP).
 ENDTAB;
 
 
@@ -33,7 +33,6 @@ ENDTAB;
 NEWTAB("III. Execution:")
 As per CO intent.<br/>
 <br/>
-<br/>There is a capture zone in the center of town that you must take and hold for ten minutes (the GM will have to end the mission).
 ENDTAB;
 
 NEWTAB("IV. Service Support:")
@@ -48,7 +47,7 @@ NEWTAB("IV. Service Support:")
 Extra ammunition and ordinance are loaded in the vehicles.
 ENDTAB;
 
-NEWTAB("V. Command & Signal:")
+NEWTAB("V. Command and Signal:")
 <br/> ------ Alpha COY NET - Channel 1 (AN/PRC 117)
 
 <br/>
@@ -67,15 +66,12 @@ ENDTAB;
 
 NEWTAB("C. General Notes:")
 Mission Notes
-o Friendly forces have 8 respawn tickets. The dead will respawn at Company HQ. They have access to 1x mk19 Jackal 1x one unarmed, armored jackal.
 <br/>
-o Destruction of ADA sites will be carried over to subsequent mission. ADA 2 will be destroyed in subsequent mission regardless of mission 1 outcome.
+o Friendly forces have 8 respawn tickets. The dead will respawn at Company HQ. They have access to 1x mk19 Jackal, 1x one unarmed, armored jackal.
+<br/>
+o Destruction of ADA sites will be carried over to subsequent mission. 
 <br/>
 o The 1,2,3 Section vehicles have 3 x claymore mines in each.
-ENDTAB;
-
-NEWTAB("APPENDIX A - VEHICLE LOADOUT:")
-	<br/>more to follow
 ENDTAB;
 
 
@@ -100,30 +96,31 @@ HMG<br/>
 Static M2<br/>
 Claymore Mines<br/>
 NVG capabilities.<br/>
-1.b.2.)Disposition. Enemy forces are currently manning traffic control points east of the international boundary. A Platoon is currently guarding existing ADA sites (1-3). The enemy also has QRF capabilities – expected to be a section in strength.
+1.b.2.)Disposition. Enemy forces are currently manning traffic control points east of the international boundary. A Platoon is currently guarding existing ADA sites (1 and 3). The enemy also has QRF capabilities – expected to be a section in strength.
 
-1.b.3. Enemy Most Likely Course of Action. Enemy forces will position observation points to the West of the ADA sites in order to make contact with our forces as we cross the international boundary. Once our main body is detected, they will orient towards and defend in place. The enemy will activate QRF if they sustain too many casualties.<br/>
+1.b.3. Enemy Most Likely Course of Action. Enemy forces will position observation points to the West of the ADA sites in order to make contact with our forces as we enter their engagement zone. Once our main body is detected, they will orient towards and defend in place. The enemy will activate QRF if they sustain too many casualties.<br/>
 <br/>
 ENDTAB;
 
 NEWTAB("1.c. Friendly Forces:")
 1.c. Friendly:<br/>
 <br/>
-1.c.1.) Friendly Overview: 91st Tracked Airborne Infantry Regiment attacks to seize key terrain: (1) Krasnostav Airfield and (2) Berezino Harbor. Phase 1, B/91 VDV (Your Company) attacks to destroy enemy air-defense-artillery (ADA) in order to enable freedom of maneuver for friendly rotary assets. Phase 2, B/91 VDV (Your Company; next mission) conducts attack to seize airstrip & harbor.
+1.c.1.) Friendly Overview: 91st Tracked Airborne Infantry Regiment attacks to seize key terrain: (1) Krasnostav Airfield and (2) Berezino Harbor. Phase 1, B/91 VDV (Your Company) attacks to destroy enemy air-defense-artillery (ADA) in order to enable freedom of maneuver for friendly rotary assets. Phase 2, B/91 VDV (Your Company; next mission) conducts attack to seize airstrip and harbor.
 <br/>
 1.c.2. Adjacent Units. C/91(notional) is operating to our South to secure Berezino Harbor. 
 
 ENDTAB;
 
 NEWTAB("2. Mission:")
-2.) Company Mission: B/91 attacks to destroy ADA emplacements 1-3 in order enable freedom of maneuver for rotary assets that will assist with the final assault on Krasnostav Airstrip.
+2.) Company Mission: B/91 attacks to destroy ADA emplacements 1 and 3 in order enable freedom of maneuver for rotary assets that will assist with the final assault on Krasnostav Airstrip.
 ENDTAB;
 
 NEWTAB("3. Execution:")
 <br/>Notes on Execution:
-o Enemy forces have limited respawn tickets. The dead will respawn as QRF.<br/>
+o Your side has access to 7 respawn tickets and one BMD-1P. They will respawn in B/91 AA.<br/>
 o Orders from higher stipulate the complete destruction of ADA sites; demolition blocks must be placed at the base of each site to constitute success.<br/>
-o Destruction of ADA sites will be carried over to subsequent mission. ADA 2 will be destroyed in subsequent mission regardless of mission 1 outcome.<br/>
+o Destruction of ADA sites will be carried over to subsequent mission.<br/>
+
 
 ENDTAB;
 
@@ -131,7 +128,7 @@ NEWTAB("4. Service Support:")
 <br/> more to follow
 ENDTAB;
 
-NEWTAB("V. Command & Signal:")
+NEWTAB("V. Command and Signal:")
 <br/> ------ B Company - Streltsy 0 ------
 <br/>
 <br/>COY HQ - COY - Streltsy 0 - LR 4 / SR 10
@@ -167,7 +164,7 @@ NEWTAB("VI. Mission notes:") //This is shown for everyone
 Neither side may move more than 10 meters until the 5 minute setup timer expires and the GM declares mission start.
 <br/>All units must stay within AO limits annotated on map.
 <br/> Mission time limit is 90 minutes plus 5 minute setup timer.
-<br/>Blufor must defend ADA sites 1, 2, & 3. OPFOR must destroy as many ADA sites as possible within the 90 minute mission time.
+<br/>Blufor must defend ADA sites 1 and 3. OPFOR must destroy as many ADA sites as possible within the 90 minute mission time.
 <br/>If Blufor takes more than 80% casualties they will lose.
 <br/>If Opfor takes more than 80% casualties they will lose.
 <br/>
