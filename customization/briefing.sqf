@@ -125,7 +125,7 @@ o Destruction of ADA sites will be carried over to subsequent mission.<br/>
 ENDTAB;
 
 NEWTAB("4. Service Support:")
-<br/> more to follow
+<br/>
 ENDTAB;
 
 NEWTAB("V. Command and Signal:")
@@ -153,7 +153,7 @@ NEWTAB("V. Command and Signal:")
 ENDTAB;
 
 NEWTAB("APPENDIX A - VEHICLE LOADOUT:")
-more to follow
+
 ENDTAB;
 
 }; //End of west case

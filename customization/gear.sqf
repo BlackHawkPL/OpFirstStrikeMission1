@@ -393,6 +393,7 @@ switch (_type) do {
         ["UK3CB_BAF_556_30Rnd", 5, "vest"] call FNC_AddItem;
         ["SmokeShell", 2, "vest"] call FNC_AddItem;
 		["HandGrenade", 2, "vest"] call FNC_AddItem;
+		["ACE_microDAGR", 1, "vest"] call FNC_AddItem;
 
 		["ACRE_PRC148", 1, "backpack"] call FNC_AddItem;
         ["UK3CB_BAF_556_30Rnd_T", 3, "backpack"] call FNC_AddItem;
@@ -401,9 +402,8 @@ switch (_type) do {
         ["SmokeShellRed", 2, "backpack"] call FNC_AddItem;
 		["ACE_RangeCard", 1,"backpack"] call FNC_AddItem;
 		["ACE_MapTools", 1,"backpack"] call FNC_AddItem;
-		["ACE_RangeTable_82mm", 1,"backpack"] call FNC_AddItem;
 
-        ["Binocular"] call FNC_AddItem;
+		["ACE_VectorDay"] call FNC_AddItem;
 
 		["UK3CB_BAF_L85A2_RIS"] call FNC_AddItem;
 			_unit addPrimaryWeaponItem "UK3CB_BAF_Eotech";
@@ -879,7 +879,7 @@ switch (_type) do {
 		["ACE_Kestrel4500"] call FNC_AddItem; //Sniper Equipment
 
 		["UK3CB_BAF_L85A2_UGL_HWS"] call FNC_AddItem;
-			_unit addPrimaryWeaponItem "UK3CB_BAF_TA31F";
+			_unit addPrimaryWeaponItem "UK3CB_BAF_Eotech";
 			_unit addPrimaryWeaponItem "rhsusf_acc_anpeq15A";	
 		
 		["ACE_VectorDay"] call FNC_AddItem;
