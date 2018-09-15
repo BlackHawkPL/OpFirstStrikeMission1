@@ -16,14 +16,14 @@ class EditorData
 	};
 	class LayerIndexProvider
 	{
-		nextID=470;
+		nextID=477;
 	};
 	class Camera
 	{
 		pos[]={8479.1123,524.25043,10416.09};
-		dir[]={0.80628502,-0.4560301,0.3767713};
-		up[]={0.41315839,0.88995951,0.19306631};
-		aside[]={0.42335746,-1.8664286e-007,-0.9059757};
+		dir[]={-0.56463015,-0.31630141,0.76234317};
+		up[]={-0.18826541,0.94865459,0.25418881};
+		aside[]={0.80360305,8.2080078e-008,0.59519106};
 	};
 };
 binarizationWanted=0;
@@ -805,7 +805,7 @@ class Mission
 					};
 					id=18;
 					type="RHS_M2StaticMG_MiniTripod_D";
-					atlOffset=0.36184692;
+					atlOffset=0.31460571;
 				};
 				class Item11
 				{
